@@ -13,38 +13,40 @@ Dataset:
 You can use any publicly available weather dataset. One such example is the Daily Global
 Historical Climatology Network (GHCN-Daily) dataset, which contains daily weather
 observations from thousands of land surface stations across the globe.
-Steps:
-1. Data Collection: Download a weather dataset or access it through an API.
-2. Data Cleaning and Preparation:
- Load the data using Pandas.
- Clean the data by handling missing values, erroneous entries, and data types.
-3. Data Analysis:
- Calculate statistical summaries like mean, median, mode, minimum, and
-maximum temperature.
- Analyze more complex patterns like seasonal changes or yearly trends in
-temperature or precipitation.
 
-4. Data Visualization:
- Create line graphs to show temperature changes over time.
- Use bar charts to compare average monthly rainfall or temperatures.
- Optional: Create more complex visualizations like heatmaps or geographical
+Steps:
+1. <b>Data Collection:</b> Download a weather dataset or access it through an API.
+2. <b>Data Cleaning and Preparation:</b>
+  Load the data using Pandas.
+  Clean the data by handling missing values, erroneous entries, and data types.
+3. <b>Data Analysis:</b>
+  Calculate statistical summaries like mean, median, mode, minimum, and
+maximum temperature.
+  Analyze more complex patterns like seasonal changes or yearly trends in
+  temperature or precipitation.
+
+4. <b>Data Visualization:</b>
+  Create line graphs to show temperature changes over time.
+  Use bar charts to compare average monthly rainfall or temperatures.
+  Optional: Create more complex visualizations like heatmaps or geographical
 plots if the dataset includes location data.
 
-5. Interpretation: Write a brief report interpreting the results of your analysis and
+5. <b>Interpretation:</b> Write a brief report interpreting the results of your analysis and
 visualizations. Discuss any interesting trends or patterns you observed.
+
 Deliverables:
 1. Python Code: A well-documented Python script that performs data cleaning,
 analysis, and visualization.
 2. Report: A document or a set of slides that summarizes your methodology, findings,
 and interpretations of the data.
 Advanced Extensions (Optional):
- Perform comparative analysis between different years or locations.
- Use more advanced visualization techniques like interactive plots.
- Implement data fetching through a live API to get real-time weather data.
+  Perform comparative analysis between different years or locations.
+  Use more advanced visualization techniques like interactive plots.
+  Implement data fetching through a live API to get real-time weather data.
 Learning Outcomes:
- Understand how to manipulate and process data using Pandas.
- Gain experience in visualizing data and interpreting patterns in datasets.
- Learn to document and present findings in a coherent and understandable manner.
+  Understand how to manipulate and process data using Pandas.
+  Gain experience in visualizing data and interpreting patterns in datasets.
+  Learn to document and present findings in a coherent and understandable manner.
 
 This project is designed to be flexible, allowing you to scale the complexity based on your
 comfort level with Python and data analysis. It provides a practical application of Python in a
