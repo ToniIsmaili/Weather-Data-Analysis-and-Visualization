@@ -28,6 +28,5 @@ class GHCND:
         params = {'locationid': locationid}
         station_df = pd.DataFrame(requests.get(url, params=params, headers=self.headers).json()['results'])
         station_df = station_df.drop(['mindate', 'maxdate', 'latitude', 'longitude', 'datacoverage', 'elevationUnit'], axis=1)
-        # del station_df['elevation']
         return pd.merge(df, station_df, left_on='station', right_on='id').drop(['id', 'station'], axis=1)
 
