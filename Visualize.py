@@ -51,7 +51,7 @@ def __store_figure(filename):
     figure = plt.gcf()
     figure.set_size_inches(12, 9)
 
-    plt.savefig(f'results/{filename}.png', dpi=200)
+    plt.savefig(f'results/{filename}.png', dpi=250)
 
     # Clears figure and axis
     plt.clf()
