@@ -6,6 +6,10 @@ import seaborn as sns
 # Handles the creation of plots
 def __create_plot(plot_type, **params):
 
+    if params['data'] is None:
+        print("Given DataFrame is None")
+        return
+
     if plot_type == 'heatmap':
         sns.heatmap(params['data'], cmap='viridis', annot=True, fmt='g', cbar_kws={'label': 'Count'})
         plt.xlabel('Temperature Groups (℃)')
